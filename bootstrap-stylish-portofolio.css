@@ -1,0 +1,222 @@
+body{
+    font-family: "Montserrat", sans-serif ;
+}
+#nav{
+    background-image:url("https://raw.githubusercontent.com/StartBootstrap/startbootstrap-stylish-portfolio/master/img/bg-masthead.jpg ");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sidebar {
+    height:800px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(132, 194, 194);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  #sidebar {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    display: block;
+    transition: 0.3s;
+    background-color: rgb(132, 194, 194) ;
+  }
+  #sidebar:hover{
+      background-color: rgb(94, 161, 161);
+  }
+  
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 36px;
+    margin-right: 20px;
+   
+  }
+  
+  .openbtn {
+    font-size: 17px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    opacity: 0.5;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+  
+  .openbtn:hover {
+    background-color:black;
+    opacity: 1;
+  }
+  .closebtn{
+      color:white
+      ;
+      font-size: 20px;
+      opacity: 0.5;
+     
+      
+     
+  }
+  .closebtn:hover{
+      text-decoration: none;
+      color: black;
+      opacity: 1;
+  }
+  #side-head{
+      background-color:rgb(86, 156, 156);
+      font-size: 18px;
+  }
+ 
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  #header{
+      margin-top: 150px;
+  }
+  #header-btn{
+      margin-top: 50px;
+      margin-bottom: 150px;
+      padding: 12px;
+      font-size: 20px;
+      background-color:rgb(86, 156, 156) ;
+  }
+  h2{
+      margin-top: 150px;
+      text-align: center;
+  }
+  #about-btn{
+      padding: 20px;
+      font-size: 20px;
+  }
+  #services{
+      background-color:rgb(86, 156, 156) ;
+  }
+  .p-services{
+      color: darkgoldenrod;
+      margin-top: 60px;
+  }
+  #service-icon{
+      font-size: 40px;
+      color:rgb(86, 156, 156)  ;
+      border: 2px solid white;
+      border-radius: 50%;
+      padding: 30px;
+      background-color: white;
+      margin-bottom: 30px;
+  }
+  #download{
+      background-image: url("https://raw.githubusercontent.com/StartBootstrap/startbootstrap-stylish-portfolio/master/img/bg-callout.jpg ");
+      background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+  }
+.h2-download{
+    margin-top: 150px;
+    text-align: center;
+}
+.img{
+    display: block;
+    width: 100%;
+    width: 100%;
+
+  object-fit: cover;
+   
+}
+#img-col{
+    position: relative;
+    color: white;
+    display: inline-block;
+    overflow: hidden;
+}
+.bottom{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    text-align: left;
+}
+.p-img{
+    font-size: 17px;
+}
+.img:hover{
+    background-color: rgb(86, 156, 156);
+    cursor: pointer;
+    opacity: 0.5;
+    vertical-align: middle;
+    -webkit-transition: all 0.5s linear;  
+    -moz-transition: all 0.5s linear;  
+    -ms-width: all 0.5s linear;  
+    -o-width: all 0.5s linear;  
+    -webkit-transform: scale(0.8);  
+    -moz-transition: scale(0.8);  
+    -ms-width: scale(0.8);  
+    -o-width: scale(0.8);  
+    
+}
+#section5{
+    background-color: rgb(86, 156, 156);
+}
+#imp-btn{
+    margin: 20px 20px 60px 20px;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+
+#icon{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#footer-icon{
+    font-size: 20px;
+    padding:20px;
+    color: white;
+    border: 2px solid rgb(86, 156, 156);
+    border-radius: 50%;
+    background-color: rgb(86, 156, 156);  
+    margin:20px;
+}
+#footer-icon:hover{
+    background-color: rgb(30, 107, 107);
+}
+
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 18px;
+    }
+}
+    @media screen and (max-width: 768px){
+        .sidebar {
+            padding-top: 15px;
+        }
+        .sidebar a {
+            font-size: 18px;
+        }  
+    #img-col{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        text-align: center;
+    }
+    #side-head{
+        margin-top: 50px;
+    }
+   }
+
